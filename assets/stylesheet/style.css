@@ -1,0 +1,53 @@
+:root {
+    --blue: #0193d7;
+    --dark: #02384e;
+    --gray: #6d6e71;
+    --light: #ffffff;
+    --spot: #a3ce52;
+    --brad: 50px;
+}
+
+body {
+     font-size: 16px;
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 40px;
+    background: var(--dark);
+    color: var(--light);
+}
+      
+h1 {
+    font-size: 50px;
+    text-align: left;
+    display:inline-block;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+li a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/chonk-adoption-blue.png");
+    background-size: cover;
+    background-position: center;
+}
