@@ -41,6 +41,12 @@ nav ul li{
     margin-left: 25px;
 }
 
+nav ul li:before{
+    content: "//";
+    position: relative;
+    left: -1px;
+}
+
 li a {
     color: var(--light);
     text-decoration: none;
@@ -81,22 +87,64 @@ figure p{
     background-color: var(--blue);
     color: var(--light);
 }
-
+/*sample work*/
 .figure-work{
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 900px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--light);
 }
 
-.figure-work-h2{
+.figure-work h2{
     font-size: 36px;
     color: var(--blue);
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
+.featured-work{
+    flex: 1;
+    background-color: var(--light);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-work h2{
+    background-color: var(--light);
+    color: var(--blue);
+    border-radius: 10px 10px;
+    padding: 20px;
+}
+.work {
+    flex: 2;
+    background-color: var(--light);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+  
+.box {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--gray);
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+.box div{
+    background-color: var(--blue);
+    color: var(--light);
+    border-radius: 10px 10px;
+    padding: 20px;
+}
+
+/*contact section*/
 .figure-contact {
     margin-bottom: 20px;
     padding-top: 25px;
