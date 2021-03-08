@@ -16,6 +16,7 @@ header {
     padding: 40px;
     background: var(--dark);
     color: var(--light);
+    font-family: Arial, Helvetica, sans-serif
 }
       
 h1 {
@@ -28,7 +29,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-size: 20px;
     flex-direction: column;
 }
@@ -67,7 +68,7 @@ figure h2{
 }
 
 figure p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     color: var(--light);
     font-size:20px;
     line-height: 1.5
@@ -76,10 +77,25 @@ figure p{
 .figure-about {
     margin-bottom: 20px;
     padding: 50px;
-    height: 150px;
+    height: 200px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--blue);
-    color: #ffffff;
+    color: var(--light);
+}
+
+.figure-work{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light);
+}
+
+.figure-work-h2{
+    font-size: 36px;
+    color: var(--blue);
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .figure-contact {
@@ -88,11 +104,11 @@ figure p{
     height: 75px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--spot);
-    color: #ffffff;
+    color: var(--light);
 }
 
 .figure-contact p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     color: var(--light);
     font-size:20px;
     line-height: 1.5;
