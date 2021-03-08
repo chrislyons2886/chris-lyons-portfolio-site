@@ -29,7 +29,7 @@ nav {
     margin-right: 20px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;;
+    font-size: 20px;
 }
 
 nav ul li{
@@ -50,4 +50,106 @@ li a {
     background-image: url("../images/chonk-adoption-blue.png");
     background-size: cover;
     background-position: center;
+}
+
+.content-area {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+figure h2{
+    font-size: 36px;
+    color: var(--light);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+figure p{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--light);
+    font-size:20px;
+    line-height: 1.5
+}
+    
+.figure-about {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--blue);
+    color: #ffffff;
+}
+
+.figure-contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--spot);
+    color: #ffffff;
+}
+
+.figure-contact p{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--light);
+    font-size:20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.figure-contact a{
+    color: var(--light);
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--gray);
+    padding: 40px;
+}
+
+footer h2{
+    font-size: 36px;
+    color: var(--light);
+    text-align: center;
+}
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    header {
+      background-color: var(--spot);
+    }
+    footer{ 
+      background-color: var(--dark)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    header {
+      background: var(--blue);
+    }
+    footer {
+      background-color: var(--blue);
+    }
+  }
+
+@media screen and (max-width: 576px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    header {
+      background-color: var(--gray);
+    }
+    footer{ 
+      background-color: var(--blue)
+    }
 }
