@@ -4,7 +4,6 @@
     --gray: #6d6e71;
     --light: #ffffff;
     --spot: #a3ce52;
-    --brad: 50px;
 }
 
 body {
@@ -60,7 +59,9 @@ li a {
     background-size: cover;
     background-position: center;
 }
-
+main a{
+    text-decoration:none;
+}
 .content-area {
     width: 100%;
 }
@@ -78,7 +79,7 @@ figure p{
     font-size:20px;
     line-height: 1.5;
 }
-    
+ /* about */   
 .figure-about {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,35 +87,53 @@ figure p{
     background-color: var(--blue);
     color: var(--light);
 }
-/*sample work*/
+/*sample work header*/
 .figure-work{
     margin-bottom: 20px;
     padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--light);
 }
-
+/*sample work boxes*/
 .figure-work h2{
     font-size: 36px;
     color: var(--blue);
     text-align: center;
     padding-bottom: 25px;
+    display: flex;
+    justify-content: center
 }
-
-.featured-work{
+/*featured work*/
+.featured-work {
     flex: 1;
     background-color: var(--light);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
+}
+  
+.featured-box {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--gray);
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 600px;
+    margin: 20px;
 }
 
-.featured-work h2{
-    background-color: var(--light);
-    color: var(--blue);
+.featured-box div{
+    background-color: var(--spot);
+    font-size: 36px;
+    color: var(--light);
     border-radius: 10px 10px;
     padding: 20px;
+    font-size: 50;
+    text-align: center;
 }
+
+/* addt'l work*/
 .work {
     flex: 2;
     background-color: var(--light);
@@ -131,7 +150,7 @@ figure p{
     border-color: var(--gray);
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 300px;
+    flex: 0 0 400px;
     margin: 20px;
 }
 
@@ -140,6 +159,8 @@ figure p{
     color: var(--light);
     border-radius: 10px 10px;
     padding: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /*contact section*/
@@ -162,7 +183,6 @@ figure p{
 
 .figure-contact a{
     color: var(--light);
-    text-decoration: none;
 }
 
 footer{
