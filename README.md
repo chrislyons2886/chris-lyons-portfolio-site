@@ -11,7 +11,8 @@ My motivation behind this project was to create an attractive portfolio site sel
 [Chris Lyons' Github Repository](https://github.com/chrislyons2886/chris-lyons-portfolio-site)
 
 ## Usage
-![Chris Lyons | Portfolio](githubusercontent.com/77216549/111038817-d4305f00-83f8-11eb-9b0c-4898a70518f7.png)
+![Chris Lyons _ Portfolio](https://user-images.githubusercontent.com/77216549/111038817-d4305f00-83f8-11eb-9b0c-4898a70518f7.png)
+
 
 ## Credits
 
